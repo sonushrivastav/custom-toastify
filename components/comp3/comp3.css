@@ -1,0 +1,101 @@
+.comp3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.input{
+    width: 20%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 1px solid #090947;
+    font-size: 15px;
+}
+
+.timeremain{
+    font-size: 70px;
+    margin-left: 50%;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    border-radius: 5px;
+   border: none;
+   background-color: #090947;
+   background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+   padding: 5px 30px;
+   color: #fff;
+   font-weight: 700;
+   font-size: 20px;
+   cursor: pointer;
+   width: 20%;
+ }
+
+
+.btn:hover{
+    background: #312d2d;
+    background-image: linear-gradient(315deg, #13133a 0%, #413941 74%);
+}
+
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li.active a {
+    font-weight: bold;
+  }
+  
+  .pagination li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .pagination li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between grid items */
+    margin-top: 30px;
+    overflow-x: hidden;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    border:1px solid gray
+
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  

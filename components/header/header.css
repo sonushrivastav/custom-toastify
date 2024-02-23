@@ -1,0 +1,36 @@
+
+
+.headerCOntainer {
+  width: 100%;
+  height: 75px;
+  background-color: #090947;
+  background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toastifyTitle{
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.componentLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.toasts{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
